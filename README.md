@@ -1,8 +1,9 @@
 #NOTAS
 
-useForm
+*ueForm*
 
-*code of the component*
+
+code of the component
 
 
     const [{id, name}, handleInputChange, reset] = useForm({ id: user.id, name: user.name })
@@ -17,3 +18,11 @@ useForm
         reset()
 
     }
+
+the name of the input is the name of the propiety for the values
+
+
+*useFetch*
+
+parameter = url
+returns error, data, loding
